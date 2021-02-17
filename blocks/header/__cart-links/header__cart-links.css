@@ -1,0 +1,6 @@
+.header__cart-links {
+  display: flex;
+  height: 71px;
+  align-items: center;
+  margin-left: 31px;
+}

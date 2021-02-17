@@ -1,0 +1,10 @@
+.header__cart {
+  width: 41px;
+  height: 31px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #713dc3;
+  border-radius: 42%;
+}

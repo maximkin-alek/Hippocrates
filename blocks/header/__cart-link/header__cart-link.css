@@ -1,0 +1,8 @@
+.header__cart-link {
+  font-size: 19px;
+  text-decoration: none;
+  margin-right: 61px;
+}
+.header__cart-link:last-of-type {
+  margin-right: 0;
+}

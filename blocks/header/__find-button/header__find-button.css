@@ -1,0 +1,8 @@
+.header__find-button {
+  width: 58px;
+  height: 42px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  outline: none
+}

@@ -1,0 +1,26 @@
+@import url('./__first-line/header__first-line.css');
+@import url('./__second-line/header__second-line.css');
+@import url('./__left-groupe/header__left-groupe.css');
+@import url('./__street/header__street.css');
+@import url('./__city/header__city.css');
+@import url('./__telephone/header__telephone.css');
+@import url('./__tel-icon/header__tel-icon.css');
+@import url('./__number/header__number.css');
+@import url('./__visually-impaired/header__visually-impaired.css');
+@import url('./__eye-icon/header__eye-icon.css');
+@import url('./__opening-hours/header__opening-hours.css');
+@import url('./__find-button/header__find-button.css');
+@import url('./__nav/header__nav.css');
+@import url('./__nav-list/header__nav-list.css');
+@import url('./__link/header__link.css');
+@import url('./__cart/header__cart.css');
+@import url('./__services/header__services.css');
+@import url('./__cart-links/header__cart-links.css');
+@import url('./__cart-link/header__cart-link.css');
+.header {
+  width: 100%;
+  padding: 0 140px 0;
+  height: 195px;
+  padding-top: 40px;
+  margin: 0 auto;
+}

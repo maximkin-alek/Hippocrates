@@ -1,0 +1,17 @@
+.header__street {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0 0 10px 0;
+}
+
+.header__street::before {
+  content: '';
+  background-image: url(../../../images/plus.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 12px;
+  width: 12px;
+  height: 12px;
+  margin-right: 16px;
+}
