@@ -1,0 +1,27 @@
+.header__cart-button {
+  width: 295px;
+  height: 71px;
+  cursor: pointer;
+  color: white;
+  background-color: #713dc3;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1450px) {
+  .header__cart-button {
+    width: 200px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__cart-button {
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+  }
+}

@@ -1,8 +1,20 @@
 .header__cart-link {
+  color: black;
   font-size: 19px;
   text-decoration: none;
   margin-right: 61px;
 }
-.header__cart-link:last-of-type {
-  margin-right: 0;
+
+@media screen and (max-width: 1450px) {
+  .header__cart-link {
+    font-size: 16px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .header__cart-link {
+    font-size: 13px;
+    margin-right: 15px;
+  }
 }

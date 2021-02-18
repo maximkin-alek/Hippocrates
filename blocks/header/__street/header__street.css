@@ -15,3 +15,20 @@
   height: 12px;
   margin-right: 16px;
 }
+
+@media screen and (max-width: 1450px) {
+  .header__street {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__street {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .header__street::before {
+    margin-right: 10px;
+  }
+}

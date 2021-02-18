@@ -7,3 +7,23 @@
   font-size: 17px;
   margin-top: 40px;
 }
+
+@media screen and (max-width: 1450px) {
+  .header__opening-hours {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .header__opening-hours {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__opening-hours {
+    font-size: 12px;
+  }
+}
