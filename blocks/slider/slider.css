@@ -2,12 +2,26 @@
 @import url('./__text-groupe/slider__text-groupe.css');
 @import url('./__text/slider__text.css');
 @import url('./__button/slider__button.css');
+@import url('./__arrow/slider__arrow.css');
 @import url('./_size/slider__text_size-s.css');
 @import url('./_size/slider__text_size-m.css');
 @import url('./_size/slider__text_size-l.css');
+@import url('./_position/slider__arrow_position-left.css');
+@import url('./_position/slider__arrow_position-right.css');
 .slider {
   width: 100%;
   height: 766px;
   position: relative;
+}
 
+@media screen and (max-width: 1510px) {
+  .slider {
+    height: 630px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .slider {
+    height: 440px;
+  }
 }

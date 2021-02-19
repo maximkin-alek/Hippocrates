@@ -15,3 +15,19 @@
   border: none;
   outline: none
 }
+
+@media screen and (max-width: 1510px) {
+  .slider__button {
+    width: 140px;
+    height: 35px;
+    left: 110px;
+    bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .slider__button {
+    left: 90px;
+    bottom: 30px;
+  }
+}
