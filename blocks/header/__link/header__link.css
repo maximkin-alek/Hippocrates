@@ -19,6 +19,7 @@
   left: 0;
   top: 30px;
   color: #713dc3;
+  z-index: 5;
 }
 
 @media screen and (max-width: 1100px) {

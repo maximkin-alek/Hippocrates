@@ -1,0 +1,7 @@
+.header__sublist-item {
+  margin: 0;
+  padding: 0;
+}
+.header__sublist-item:first-of-type {
+  padding-top: 30px;
+}

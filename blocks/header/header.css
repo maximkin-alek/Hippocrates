@@ -22,10 +22,13 @@
 @import url('./__cart-link/header__cart-link.css');
 @import url('./__cart-button/header__cart-button.css');
 @import url('./__visually-impaired-text/header__visually-impaired-text.css');
+@import url('./__list-item/header__list-item.css');
+@import url('./__sublist/header__sublist.css');
+@import url('./__sublist-link/header__sublist-link.css');
+@import url('./__sublist-item/header__sublist-item.css');
 .header {
   width: 100%;
   padding: 40px 140px 0;
-  min-height: 195px;
   margin: 0 auto;
 }
 @media screen and (max-width: 1700px) {

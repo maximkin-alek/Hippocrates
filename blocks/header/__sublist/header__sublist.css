@@ -1,0 +1,13 @@
+.header__sublist {
+  display: none;
+  position: absolute;
+  width: 355px;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  z-index: 2;
+}
+
+
