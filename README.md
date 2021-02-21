@@ -11,4 +11,4 @@
 HTML, CSS.
 
 ## Ссылка на github pages:
-https://maximkin-alek.github.io/travel_in_Russia/
+https://maximkin-alek.github.io/Hippocrates/
