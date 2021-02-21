@@ -1,0 +1,15 @@
+@import url(./_open/header__mobile-button_open.css);
+
+.header__mobile-button {
+  width: 36px;
+  height: 22px;
+  background-image: url(../../../images/mobile-menu-closed.png);
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .header__mobile-button {
+    display: block;
+    cursor: pointer;
+  }
+}

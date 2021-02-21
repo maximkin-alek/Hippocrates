@@ -1,9 +1,6 @@
 .header__list-item {
   position: relative;
 }
-.header__list-item:first-of-type {
-
-}
 
 .header__list-item:hover .header__sublist {
   display: block;

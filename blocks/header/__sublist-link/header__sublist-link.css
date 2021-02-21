@@ -6,4 +6,17 @@
   text-decoration: none;
   margin: 0;
   background-color: white;
+  padding-left: 20px;
+}
+@media screen and (max-width: 1510px) {
+  .header__sublist-link {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header__sublist-link {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }

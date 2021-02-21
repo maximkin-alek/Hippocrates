@@ -15,7 +15,16 @@
   border: none;
   outline: none
 }
-
+.slider__button::after {
+  content: '';
+  background-image: url(../../../images/slider-button-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 13px;
+  width: 8px;
+  height: 13px;
+  margin-left: 5px;
+}
 @media screen and (max-width: 1510px) {
   .slider__button {
     width: 140px;
@@ -29,5 +38,23 @@
   .slider__button {
     left: 90px;
     bottom: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .slider__button {
+    width: 100px;
+    height: 30px;
+    left: 50px;
+    bottom: 20px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .slider__button {
+    width: 90px;
+    height: 22px;
+    left: 50px;
+    bottom: 15px;
+    font-size: 10px;
   }
 }
