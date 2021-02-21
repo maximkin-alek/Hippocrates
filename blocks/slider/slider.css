@@ -36,3 +36,8 @@
     height: 230px;
   }
 }
+@media screen and (max-width: 480px) {
+.slider {
+    height: 190px;
+  }
+}

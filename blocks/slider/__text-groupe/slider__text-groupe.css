@@ -28,10 +28,17 @@
     font-size: 7px;
   }
 }
+
 @media screen and (max-width: 580px) {
   .slider__text-groupe {
     top: 20px;
-    left: 50px;
+    left: 35px;
     font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slider__text-groupe {
+    font-size: 5px;
   }
 }

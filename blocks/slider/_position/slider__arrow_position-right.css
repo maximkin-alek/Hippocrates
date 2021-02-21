@@ -1,3 +1,10 @@
 .slider__arrow_position-right {
-right: 3%;
+  right: 3%;
+}
+
+@media screen and (max-width: 580px) {
+  .slider__arrow_position-right {
+    width: 12px;
+    right: 3%;
+  }
 }

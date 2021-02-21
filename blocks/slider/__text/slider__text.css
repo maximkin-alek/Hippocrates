@@ -22,3 +22,11 @@
     width: 300px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  @media screen and (max-width: 800px) {
+    .slider__text:nth-of-type(2) {
+      width: 180px;
+    }
+  }
+}
