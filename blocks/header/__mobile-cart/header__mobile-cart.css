@@ -1,0 +1,12 @@
+.header__mobile-cart {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .header__mobile-cart {
+    display: block;
+    margin-right: 15px;
+    position: relative;
+    bottom: 3px;
+  }
+}

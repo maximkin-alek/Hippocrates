@@ -1,4 +1,4 @@
-.header__sublist-link {
+.header__submenu-link {
   display: block;
   font-size: 18px;
   font-weight: 400;
@@ -11,13 +11,13 @@
   position: relative;
 }
 
-.header__sublist-link:hover {
+.header__submenu-link:hover {
   color: #7542c5;
 }
 
-.header__sublist-link:hover::before {
+.header__submenu-link:hover::before {
   content: '';
-  background-image: url(../../../images/sublist-point.png);
+  background-image: url(../../../images/header-submenu-arrow.png);
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -30,22 +30,22 @@
 
 
 @media screen and (max-width: 1510px) {
-  .header__sublist-link {
+  .header__submenu-link {
     font-size: 18px;
     line-height: 30px;
   }
-  .header__sublist-link:hover::before {
+  .header__submenu-link:hover::before {
     top: 8px;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .header__sublist-link {
+  .header__submenu-link {
     font-size: 14px;
     line-height: 22px;
     padding-left: 25px;
   }
-  .header__sublist-link:hover::before {
+  .header__submenu-link:hover::before {
     left: 5px;
   }
 }

@@ -2,13 +2,12 @@
   margin: 0;
   padding: 0;
 }
+.header__sublist-item:hover .header__submenu {
+  display: block;
+}
 
 .header__sublist-item:first-of-type {
   padding-top: 30px;
-}
-
-.header__sublist-item:first-of-type > .header__sublist-link {
-  padding-top: 20px;
 }
 
 @media screen and (max-width: 1000px) {

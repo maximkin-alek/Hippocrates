@@ -3,6 +3,7 @@
 @import url('./__left-groupe/header__left-groupe.css');
 @import url('./__logo/header__logo.css');
 @import url('./__image/header__image.css');
+@import url('./__address/header__address.css');
 @import url('./__street/header__street.css');
 @import url('./__city/header__city.css');
 @import url('./__telephone/header__telephone.css');
@@ -11,6 +12,7 @@
 @import url('./__visually-impaired/header__visually-impaired.css');
 @import url('./__eye-icon/header__eye-icon.css');
 @import url('./__opening-hours/header__opening-hours.css');
+@import url('./__opening-hours-mobile/header__opening-hours-mobile.css');
 @import url('./__find-button/header__find-button.css');
 @import url('./__find-icon/header__find-icon.css');
 @import url('./__nav/header__nav.css');
@@ -28,11 +30,30 @@
 @import url('./__sublist-item/header__sublist-item.css');
 @import url('./__mobile-button/header__mobile-button.css');
 @import url('./__mobile-logo/header__mobile-logo.css');
+@import url('./__submenu/header__submenu.css');
+@import url('./__submenu-item/header__submenu-item.css');
+@import url('./__submenu-link/header__submenu-link.css');
+@import url('./__mobile/header__mobile.css');
+@import url('./__mobile-menu/header__mobile-menu.css');
+@import url('./__mobile-cart/header__mobile-cart.css');
+@import url('./__mobile-buttons/header__mobile-buttons.css');
+@import url('./__mobile-menu-list/header__mobile-menu-list.css');
+@import url('./__mobile-icons/header__mobile-icons.css');
+@import url('./__mobile-input/header__mobile-input.css');
+@import url('./__mobile-find-button/header__mobile-find-button.css');
+@import url('./__mobile-form/header__mobile-form.css');
+@import url('./__mobile-tel-group/header__mobile-tel-group.css');
+@import url('./__mobile-arrow-button/header__mobile-arrow-button.css');
+
+@import url('./_is-open/header__mobile-menu_is-open.css');
+@import url('./_is-visible/header__mobile-form_is-visible.css');
+@import url('./_is-visible/header__find-button_is-visible.css');
 .header {
   width: 100%;
   padding: 40px 140px 0;
   margin: 0 auto;
 }
+
 @media screen and (max-width: 1700px) {
   .header {
     padding: 40px 50px 0;
@@ -47,10 +68,7 @@
 
 @media screen and (max-width: 800px) {
   .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 60px;
-    padding: 0 20px 0;
+    position: relative;
+    padding: 0;
   }
 }

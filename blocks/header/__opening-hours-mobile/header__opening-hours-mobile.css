@@ -1,0 +1,9 @@
+.header__opening-hours-mobile {
+  display: block;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  font-weight: 400;
+  margin: 65px 22px 20px 0;
+  height: fit-content;
+  width: 278px;
+}

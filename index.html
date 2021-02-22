@@ -59,7 +59,7 @@
       </div>
       <div class="header__second-line">
         <div class="header__left-groupe">
-          <button class="header__find-button">
+          <button class="header__find-button header__find-button_is-visible">
             <img src="./images/find.png" alt="" class="header__find-icon" />
           </button>
           <nav class="header__nav">
@@ -79,7 +79,66 @@
                   </li>
 
                   <li class="header__sublist-item">
-                    <a href="#" class="header__sublist-link">Урология</a>
+                    <a href="#" class="header__sublist-link"
+                      >Урология
+                      <ul class="header__submenu">
+                        <li class="header__submenu-item">
+                          <a href="#" class="header__submenu-link"
+                            >Прием уролога</a
+                          >
+                        </li>
+                        <li class="header__submenu-item">
+                          <a href="#" class="header__submenu-link"
+                            >Ударно-волновая терапия</a
+                          >
+                        </li>
+                        <li class="header__submenu-item">
+                          <a href="#" class="header__submenu-link"
+                            >Super Inductive System (SIS)</a
+                          >
+                        </li>
+                        <li class="header__submenu-item">
+                          <a href="#" class="header__submenu-link"
+                            >Массаж предстательной железы</a
+                          >
+                        </li>
+                        <li class="header__submenu-item">
+                          <a href="#" class="header__submenu-link"
+                            >Взятие материала</a
+                          >
+                        </li>
+                        <li class="header__submenu-item">
+                          <a href="#" class="header__submenu-link"
+                            >Терапия лазером</a
+                          >
+                        </li>
+                        <li class="header__submenu-item">
+                          <a href="#" class="header__submenu-link"
+                            >Термотерапия предстательной железы</a
+                          >
+                        </li>
+                        <li class="header__submenu-item">
+                          <a href="#" class="header__submenu-link"
+                            >Декомпрессия</a
+                          >
+                        </li>
+                        <li class="header__submenu-item">
+                          <a href="#" class="header__submenu-link"
+                            >Операция при варикоцелле</a
+                          >
+                        </li>
+                        <li class="header__submenu-item">
+                          <a href="#" class="header__submenu-link"
+                            >Операция при водянке яичника</a
+                          >
+                        </li>
+                        <li class="header__submenu-item">
+                          <a href="#" class="header__submenu-link"
+                            >Разлучение синехий</a
+                          >
+                        </li>
+                      </ul>
+                    </a>
                   </li>
 
                   <li class="header__sublist-item">
@@ -189,12 +248,94 @@
           </div>
         </div>
       </div>
-      <img
-        src="./images/mobile-logo.png"
-        alt="логотип"
-        class="header__mobile-logo"
-      />
-      <div class="header__mobile-button"></div>
+
+      <div class="header__mobile">
+        <img
+          src="./images/mobile-logo.png"
+          alt="логотип"
+          class="header__mobile-logo"
+        />
+        <div class="header__mobile-buttons">
+          <button class="header__cart header__mobile-cart">2</button>
+          <div class="header__mobile-button"></div>
+        </div>
+
+        <div class="header__mobile-menu header__mobile-menu_is-open">
+          <ul class="header__mobile-menu-list">
+            <li class="header__mobile-menu-item">
+              <a href="" class="header__mobile-menu-link">Лечение</a>
+            </li>
+            <li class="header__mobile-menu-item">
+              <a href="" class="header__mobile-menu-link">Диагностика</a>
+            </li>
+            <li class="header__mobile-menu-item">
+              <a href="" class="header__mobile-menu-link">Прием врачей</a>
+            </li>
+            <li class="header__mobile-menu-item">
+              <a href="" class="header__mobile-menu-link">О центре</a>
+            </li>
+            <li class="header__mobile-menu-item">
+              <a href="" class="header__mobile-menu-link">Контакты</a>
+            </li>
+          </ul>
+          <div class="header__address">
+            <p class="header__street">ул. Победы, 70А</p>
+            <p class="header__city">ст. Ленинградская</p>
+          </div>
+
+          <div class="header__address">
+            <p class="header__street">ул. 302 Дивизии, 30</p>
+            <p class="header__city">ст. Ленинградская</p>
+          </div>
+
+          <div class="header__mobile-icons">
+            <!-- Показ и скрытие кнопки через модификатор header__find-button_is-visible -->
+            <button class="header__find-button">
+              <img src="./images/find.png" alt="" class="header__find-icon" />
+            </button>
+            <!-- Показ и скрытие формы через модификатор header__mobile-form_is-visible -->
+            <form
+              action=""
+              class="header__mobile-form header__mobile-form_is-visible"
+            >
+              <input class="header__mobile-input" type="text" />
+              <button type="submit" class="header__mobile-find-button">
+                <img
+                  src="./images/mobile-find-icon.png"
+                  alt="Иконка поиска"
+                  class="header__find-image"
+                />
+              </button>
+            </form>
+
+            <img
+              src="./images/eye.png"
+              alt="значок версии для слабовидящих"
+              class="header__eye-icon"
+            />
+          </div>
+          <div class="header__mobile-tel-group">
+            <img
+              src="./images/telephone.png"
+              alt="значок телефона"
+              class="header__tel-icon"
+            />
+            <div class="header__telephone-group">
+              <p class="header__number">+7 (861) 457-31-04,</p>
+              <p class="header__number">+7 (861) 457-17-60</p>
+            </div>
+            <button class="header__mobile-arrow-button">
+              <img
+                class="header__mobile-tel-arrow"
+                src="./images/mobile-arrow-down.png"
+                alt="открыть список телефонов"
+              />
+            </button>
+          </div>
+          <div class="header__opening-hours header__opening-hours-mobile">Пн-пт: 8-00 – 16-00, перерыв 13-00 – 14-00, Суббота: 8-00 - 12-00,
+            Воскресенье: выходной, МРТ центр: без перерыва и выходных, 8-00 – 20-00</div>
+        </div>
+      </div>
     </header>
 
     <main>

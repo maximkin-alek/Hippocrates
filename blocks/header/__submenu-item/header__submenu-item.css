@@ -1,0 +1,14 @@
+.header__submenu-item {
+  margin: 0;
+  padding: 0;
+}
+
+.header__submenu-item:first-of-type {
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__submenu-item:first-of-type {
+    padding-top: 15px;
+  }
+}

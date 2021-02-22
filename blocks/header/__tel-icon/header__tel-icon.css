@@ -11,3 +11,8 @@
   bottom: 7px;
 }
 }
+@media screen and (max-width: 800px) {
+  .header__tel-icon {
+    margin-right: 20px;
+  }
+}

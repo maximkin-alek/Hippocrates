@@ -1,0 +1,9 @@
+.header__mobile-find-button {
+  position: absolute;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  top: 8px;
+  right: 5px;
+  background-color: #fff;
+}
