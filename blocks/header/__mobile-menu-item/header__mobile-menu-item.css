@@ -1,6 +1,4 @@
 .header__mobile-menu-item {
   position: relative;
 }
-.header__mobile-menu-item:hover .header__mobile-sublist {
-  display: block;
-}
+

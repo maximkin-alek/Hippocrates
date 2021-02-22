@@ -1,0 +1,16 @@
+.header__mobile-menu-link_active {
+  margin-left: 15px;
+  color: #713dc3;
+}
+
+.header__mobile-menu-link_active::after {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 300px;
+  background-color: #713dc3;
+  left: 0;
+  top: 30px;
+  z-index: 5;
+}

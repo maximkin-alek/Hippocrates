@@ -1,5 +1,5 @@
 .header__mobile-sublist {
-  display: none;
+  display: block;
   width: 230px;
   top: 100%;
   left: 0;
