@@ -1,0 +1,27 @@
+.header__mobile-sublist-link {
+  color: #000000;
+  font-family: "Graphik LCG";
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 34px;
+  position: relative;
+}
+
+/*
+.header__mobile-sublist-link:hover {
+  color: #7542c5;
+} */
+
+/* .header__mobile-sublist-link:hover::before {
+  content: '';
+  background-image: url(../../../images/sublist-point.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 5px;
+  left: -15px;
+  width: 8px;
+  height: 8px;
+
+} */

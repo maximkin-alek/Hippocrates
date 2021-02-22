@@ -1,0 +1,25 @@
+.header__mobile-submenu-link {
+  color: #747474;
+  font-family: "Graphik LCG";
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 34px;
+  position: relative;
+  padding-left: 15px;
+}
+.header__mobile-submenu-link:hover {
+  color: #713dc3;
+}
+.header__mobile-submenu-link:hover::after {
+  content: '';
+  background-image: url(../../../images/header-submenu-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 5px;
+  right: -20px;
+  width: 8px;
+  height: 8px;
+
+}
