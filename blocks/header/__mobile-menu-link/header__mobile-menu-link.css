@@ -14,6 +14,7 @@
 }
 
 .header__mobile-menu-link:hover {
+  margin-left: 15px;
   color: #713dc3;
 }
 .header__mobile-menu-link:hover::after {
