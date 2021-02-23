@@ -8,7 +8,7 @@
 - Мобильное меню.
 - Использование псевдоэлементов ::before и ::after для декоративных элементов.
 ## Стэк технологий:
-HTML, CSS.
+HTML, CSS3.
 
 ## Ссылка на github pages:
 https://maximkin-alek.github.io/Hippocrates/
