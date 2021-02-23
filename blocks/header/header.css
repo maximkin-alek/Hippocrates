@@ -1,0 +1,84 @@
+@import url('./__first-line/header__first-line.css');
+@import url('./__second-line/header__second-line.css');
+@import url('./__left-groupe/header__left-groupe.css');
+@import url('./__logo/header__logo.css');
+@import url('./__image/header__image.css');
+@import url('./__address/header__address.css');
+@import url('./__street/header__street.css');
+@import url('./__city/header__city.css');
+@import url('./__telephone/header__telephone.css');
+@import url('./__tel-icon/header__tel-icon.css');
+@import url('./__number/header__number.css');
+@import url('./__visually-impaired/header__visually-impaired.css');
+@import url('./__eye-icon/header__eye-icon.css');
+@import url('./__opening-hours/header__opening-hours.css');
+@import url('./__opening-hours-mobile/header__opening-hours-mobile.css');
+@import url('./__find-button/header__find-button.css');
+@import url('./__find-icon/header__find-icon.css');
+@import url('./__nav/header__nav.css');
+@import url('./__nav-list/header__nav-list.css');
+@import url('./__link/header__link.css');
+@import url('./__cart/header__cart.css');
+@import url('./__services/header__services.css');
+@import url('./__cart-links/header__cart-links.css');
+@import url('./__cart-link/header__cart-link.css');
+@import url('./__cart-button/header__cart-button.css');
+@import url('./__visually-impaired-text/header__visually-impaired-text.css');
+@import url('./__list-item/header__list-item.css');
+@import url('./__sublist/header__sublist.css');
+@import url('./__sublist-link/header__sublist-link.css');
+@import url('./__sublist-item/header__sublist-item.css');
+@import url('./__mobile-button/header__mobile-button.css');
+@import url('./__mobile-logo/header__mobile-logo.css');
+@import url('./__submenu/header__submenu.css');
+@import url('./__submenu-item/header__submenu-item.css');
+@import url('./__submenu-link/header__submenu-link.css');
+@import url('./__mobile/header__mobile.css');
+@import url('./__mobile-menu/header__mobile-menu.css');
+@import url('./__mobile-cart/header__mobile-cart.css');
+@import url('./__mobile-buttons/header__mobile-buttons.css');
+@import url('./__mobile-menu-list/header__mobile-menu-list.css');
+@import url('./__mobile-icons/header__mobile-icons.css');
+@import url('./__mobile-input/header__mobile-input.css');
+@import url('./__mobile-find-button/header__mobile-find-button.css');
+@import url('./__mobile-form/header__mobile-form.css');
+@import url('./__mobile-tel-group/header__mobile-tel-group.css');
+@import url('./__mobile-arrow-button/header__mobile-arrow-button.css');
+@import url('./__mobile-menu-item/header__mobile-menu-item.css');
+@import url('./__mobile-menu-link/header__mobile-menu-link.css');
+@import url('./__mobile-sublist/header__mobile-sublist.css');
+@import url('./__mobile-sublist-link/header__mobile-sublist-link.css');
+@import url('./__mobile-sublist-item/header__mobile-sublist-item.css');
+@import url('./__mobile-submenu/header__mobile-submenu.css');
+@import url('./__mobile-submenu-item/header__mobile-submenu-item.css');
+@import url('./__mobile-submenu-link/header__mobile-submenu-link.css');
+
+@import url('./_is-open/header__mobile-menu_is-open.css');
+@import url('./_is-visible/header__mobile-form_is-visible.css');
+@import url('./_is-visible/header__find-button_is-visible.css');
+@import url('./_active/header__mobile-menu-link_active.css');
+@import url('./_active/header__mobile-submenu-link_active.css');
+.header {
+  width: 100%;
+  padding: 40px 140px 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1700px) {
+  .header {
+    padding: 40px 50px 0;
+  }
+}
+
+@media screen and (max-width: 1510px) {
+  .header {
+    padding: 40px 25px 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    position: relative;
+    padding: 0;
+  }
+}

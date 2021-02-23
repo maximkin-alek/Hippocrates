@@ -1,0 +1,10 @@
+.slider__arrow_position-left {
+  left: 3%
+}
+
+@media screen and (max-width: 580px) {
+  .slider__arrow_position-left {
+    width: 12px;
+    left: 2%
+  }
+}

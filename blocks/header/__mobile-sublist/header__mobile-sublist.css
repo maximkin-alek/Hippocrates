@@ -1,0 +1,9 @@
+.header__mobile-sublist {
+  display: block;
+  width: 230px;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

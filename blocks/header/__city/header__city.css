@@ -1,0 +1,17 @@
+.header__city {
+  margin: 0 0 0 28px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 1450px) {
+  .header__city {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__city {
+    margin: 0 0 0 22px;
+    font-size: 12px;
+  }
+}

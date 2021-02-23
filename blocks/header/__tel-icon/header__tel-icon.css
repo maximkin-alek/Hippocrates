@@ -1,0 +1,18 @@
+.header__tel-icon {
+  width: 39px;
+  height: 37px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__tel-icon {
+  width: 30px;
+  height: 28px;
+  position: relative;
+  bottom: 7px;
+}
+}
+@media screen and (max-width: 800px) {
+  .header__tel-icon {
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,9 @@
+.slider__arrow {
+  position: absolute;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  top: 50%;
+  transform: translate(0, -50%);
+}

@@ -1,0 +1,8 @@
+.header__mobile-arrow-button {
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  margin-left: 22px;
+}

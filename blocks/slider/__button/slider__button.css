@@ -1,0 +1,68 @@
+.slider__button {
+  width: 194px;
+  height: 49px;
+  border-radius: 24px;
+  border: 1px solid #babac0;
+  background-color: #ffffff;
+  color: #713dc3;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 100px;
+  left: 240px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  outline: none
+}
+.slider__button::after {
+  content: '';
+  background-image: url(../../../images/slider-button-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 13px;
+  width: 8px;
+  height: 13px;
+  margin-left: 5px;
+}
+@media screen and (max-width: 1510px) {
+  .slider__button {
+    width: 140px;
+    height: 35px;
+    left: 110px;
+    bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .slider__button {
+    left: 90px;
+    bottom: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .slider__button {
+    width: 100px;
+    height: 30px;
+    left: 50px;
+    bottom: 20px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .slider__button {
+    width: 90px;
+    height: 22px;
+    left: 35px;
+    bottom: 15px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .slider__button {
+    width: 85px;
+    height: 20px;
+    left: 35px;
+    bottom: 10px;
+  }
+}

@@ -1,0 +1,20 @@
+.header__sublist-item {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.header__sublist-item:hover .header__submenu {
+  display: block;
+}
+
+.header__sublist-item:first-of-type {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__sublist-item:first-of-type {
+    margin-top: 15px;
+    padding-top: 15px;
+  }
+}

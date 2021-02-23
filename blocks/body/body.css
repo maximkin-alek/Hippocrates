@@ -1,0 +1,15 @@
+.body {
+  max-width: 1900px;
+  margin: 0 auto;
+  background-color: white;
+  font-family: 'Graphik-LCG', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1510px) {
+  .body {
+    max-width: 100%;
+  }
+}
+

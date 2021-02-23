@@ -1,0 +1,16 @@
+.header__sublist {
+  display: none;
+  position: absolute;
+  width: 380px;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  z-index: 2;
+}
+@media screen and (max-width: 1200px) {
+  .header__sublist {
+    width: 330px;
+  }
+}
